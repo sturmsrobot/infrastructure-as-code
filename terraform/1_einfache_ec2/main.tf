@@ -35,4 +35,3 @@ resource "aws_instance" "erste_instanz" {
   }
 }
 
-
