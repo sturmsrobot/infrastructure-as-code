@@ -5,6 +5,7 @@ provider "aws" {
   region = "eu-central-1"
 }
 
+
 # Sicherheitsgruppen verwenden
 resource "aws_security_group" "allow_ssh" {
   name        = "allow_ssh"
@@ -23,7 +24,8 @@ resource "aws_security_group" "allow_ssh" {
     protocol    = "-1"
     cidr_blocks = ["0.0.0.0/0"]
   }
-}
+
+
 
 
 
